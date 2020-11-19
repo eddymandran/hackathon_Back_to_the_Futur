@@ -11,16 +11,12 @@ export default function NavBar() {
           <li>
             <Link to='/'>Home</Link>
           </li>
-          {/* <li>
-            <Link to='/XXXXXXXXXX'>XXXXXXXXX</Link>
+          <li>
+            <Link to='/Targets'>Targets</Link>
           </li>
           <li>
-            <Link to='/XXXXXXXXXX'>XXXXXX</Link>
+            <Link to='/info'>Contact us</Link>
           </li>
-          <li>
-            <Link to='/XXXXXXXXXX'>XXXXXXXXXXXX</Link>
-          </li>
-         */}
         </ul>
       </nav>
       <BurgerMenu />
