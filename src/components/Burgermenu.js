@@ -4,7 +4,6 @@ import BurgerIcon from './BurgerIcon';
 import Menu from './Menu';
 import '../style/Burger.css';
 
-
 const styles = {
   fontFamily: 'sans-serif',
   textAlign: 'center',

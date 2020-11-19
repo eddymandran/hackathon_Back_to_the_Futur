@@ -11,7 +11,7 @@ const castleIcon = new Icon({
 
 export default function MapView() {
   return (
-    <div className="map-container">
+    <div className='map-container'>
       <MapContainer
         className='MapViewContainer'
         center={[45.746463, 4.827158]}
@@ -19,7 +19,7 @@ export default function MapView() {
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+          url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
         />
 
         {castleData.features.map((castle) => (
