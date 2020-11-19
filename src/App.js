@@ -1,7 +1,28 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
 
-function App() {
-  return <div className='App'>Hackathon G4</div>;
+import AboutUs from './components/AboutUs';
+
+
+export default function App() {
+  return (
+    <div className="page">
+      
+            <Router>
+              <main>
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/aboutus" component={AboutUs} />
+                  
+                </Switch>
+              </main>
+              {/* <Footer /> */}
+            </Router>
+          
+       
+     
+    </div>
+  );
 }
-
-export default App;
