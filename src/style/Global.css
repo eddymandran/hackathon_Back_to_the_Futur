@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-blue: blue;
+  --color-red: red;
+  --color-white: white;
+}
+
+@font-face {
+  font-family: 'BerryRotunda';
+  src: url(../Police/BerryRotunda.ttf);
+}
+
+h1 {
+  font-family: BerryRotunda;
+  font-size: 16px;
+}
+
+ul li {
+  font-family: BerryRotunda;
+  font-size: 16px;
+}
+
+p {
+  font-family: BerryRotunda;
+  font-size: 14px;
+}
+
+label {
+  font-family: BerryRotunda;
+  font-size: 12px;
+}
+
+select {
+  font-family: BerryRotunda;
+  font-size: 12px;
+}
+
+Button{
+  font-family: BerryRotunda;
+  font-size: 12px;
+}

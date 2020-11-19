@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Form.css';
+import '../style/Form.css';
 
 const startState = {
   name: '',
@@ -86,7 +86,7 @@ class Form extends Component {
     return (
       <div className='form-wrapper'>
         <form id='contact' onSubmit={this.handleSubmit}>
-          <h2 className='title'> Who's Next ? </h2>
+          <h1 className='title'> Who's Next ? </h1>
           <div>
             <label htmlFor='inputName'>
               Alias

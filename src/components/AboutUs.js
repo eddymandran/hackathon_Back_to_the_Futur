@@ -2,7 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../style/AboutUs.css';
-import jacquesroux from '../img/jacquesroux.jpg';
+import paulineleon from '../img/paulineleon.jpeg';
 import jeanfrançoisvarlet from '../img/jeanfrançoisvarlet.jpg';
 import olympedegouges from '../img/olympedegouges.jpg';
 import madameroland from '../img/madameroland.jpg';
@@ -10,8 +10,8 @@ import jeantheophileleclerc from '../img/jeantheophileleclerc.jpg';
 
 const avatarArray = [
   {
-    src: jacquesroux,
-    legend: 'Jacques Roux',
+    src: paulineleon,
+    legend: 'Pauline Leon',
   },
   {
     src: jeanfrançoisvarlet,

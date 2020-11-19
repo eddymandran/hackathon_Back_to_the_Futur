@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Home.css';
+import '../style/Home.css';
 import Banner from './Banner';
 import MapView from './MapView';
 

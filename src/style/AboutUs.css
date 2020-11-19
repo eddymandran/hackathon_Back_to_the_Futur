@@ -1,15 +1,18 @@
+@import './Global.css';
+
 .about-us {
-  background: red;
+  margin-top: 20px;
+  background: var(--color-white);
   display: flex;
   justify-content: center;
   height: 40vh;
+  
 }
 .carousel {
   border-radius: 50%;
   width: 100px;
 }
 .about-us-carousel-container {
-  padding-bottom: 40px;
   width: 50vw;
   height: 50vh;
 }
@@ -21,7 +24,7 @@
   text-align: center;
   font-size: var(--component-title-mobile);
   margin-bottom: 20px;
-  color: #002395;
+  color: var(--color-blue);
   font-weight: 700;
 }
 
@@ -33,6 +36,7 @@
 .about-us-container {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 .legend {
   font-size: 15px;
@@ -41,13 +45,11 @@
 }
 
 @media screen and (min-width: 600px) {
-  .about-us {
-  }
+  
   .carousel {
     border-radius: 50%;
   }
-  .about-us-carousel-container {
-  }
+
   .about-us-title {
     font-size: var(--component-title-desktop);
     font-weight: 700;

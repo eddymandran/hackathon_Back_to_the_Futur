@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/NavBar.css';
+import '../style/NavBar.css';
 import BurgerMenu from './Burgermenu';
 import { Link } from 'react-router-dom';
 
