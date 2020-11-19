@@ -23,13 +23,13 @@ export default function MapView() {
               castle.geometry.coordinates[0],
               castle.geometry.coordinates[1],
             ]}
-          />
+          >
+            <Popup>
+              {castle.properties.NAME}
+              <p>{castle.properties.FORTUNE}</p>
+            </Popup>
+          </Marker>
         ))}
-        {/* <Marker position={[45.746463, 4.827158]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker> */}
       </MapContainer>
     </div>
   );
