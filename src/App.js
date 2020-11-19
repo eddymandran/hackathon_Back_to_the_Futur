@@ -7,9 +7,6 @@ import Info from './components/Info';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 
-
-
-
 export default function App() {
   return (
     <div className='page'>
