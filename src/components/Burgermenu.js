@@ -2,7 +2,8 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 import BurgerIcon from './BurgerIcon';
 import Menu from './Menu';
-import '../styles/Burger.css';
+import '../style/Burger.css';
+
 
 const styles = {
   fontFamily: 'sans-serif',

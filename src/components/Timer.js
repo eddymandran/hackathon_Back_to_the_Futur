@@ -44,11 +44,11 @@ export default function Timer() {
   return (
     <div className='execution'>
       <h1>Next execution </h1>
+      <div><img src={guillotines} alt='guillotines' /></div>
       <span className='timer'>
         {timerComponents.length ? timerComponents : <span>Time to kill!</span>}
-
-        <img src={guillotines} alt='guillotines' />
       </span>
+      
     </div>
   );
 }

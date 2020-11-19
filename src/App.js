@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Info from './components/Info';
 import Footer from './components/Footer';
 import Targets from './components/Targets';
+import './style/Global.css';
+
 
 export default function App() {
   return (

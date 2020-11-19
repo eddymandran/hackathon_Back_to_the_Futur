@@ -4,7 +4,7 @@ import '../style/Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p>Copyright 2020</p>
+      <p>Made by the people for the people</p>
     </footer>
   );
 };

@@ -1,0 +1,12 @@
+@import './Global.css';
+
+.map-container{
+  display:flex;
+  justify-content: center;
+}
+.MapViewContainer {
+  width: 400px;
+  height: 400px;
+}
+
+
