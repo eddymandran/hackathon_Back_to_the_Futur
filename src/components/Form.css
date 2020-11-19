@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  color: red;
+  font-size: Arial;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.form-wrapper {
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.red {
+  box-shadow: inset 0 0 2px 1px #cc0000;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  margin-top: 10px;
+  padding: 15px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  width: 80%;
+}
+textarea {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  width: 80%;
+  height: 100px;
+}
+
+label {
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  width: 82%;
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: var(--component-title-desktop);
+  }
+  textarea {
+    width: 60%;
+  }
+  input {
+    width: 60%;
+  }
+  select {
+    width: 65%;
+  }
+}
