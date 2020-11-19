@@ -2,31 +2,31 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../style/AboutUs.css';
-import avatar1 from '../img/avatar1.jpeg';
-import avatar2 from '../img/avatar2.jpeg';
-import avatar3 from '../img/avatar3.jpeg';
-import avatar4 from '../img/avatar4.jpeg';
-import avatar5 from '../img/avatar5.jpeg';
+import jacquesroux from '../img/jacquesroux.jpeg';
+import jeanfrançoisvarlet from '../img/jeanfrançoisvarlet.jpeg';
+import olympedegouges from '../img/olympedegouges.jpeg';
+import madameroland from '../img/madameroland.jpeg';
+import jeantheophileleclerc from '../img/jeantheophileleclerc.jpeg';
 
 const avatarArray = [
   {
-    src: avatar1,
+    src: jacquesroux,
     legend: 'Jacques Roux',
   },
   {
-    src: avatar2,
+    src: jeanfrançoisvarlet,
     legend: 'Jean-François Varlet',
   },
   {
-    src: avatar3,
+    src: madameroland,
     legend: 'Madame Roland',
   },
   {
-    src: avatar4,
+    src: olympedegouges,
     legend: 'Olympe de Gouges',
   },
   {
-    src: avatar5,
+    src: jeantheophileleclerc.jpeg,
     legend: 'Jean-Théophile Leclerc',
   },
 ];
