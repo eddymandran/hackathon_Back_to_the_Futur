@@ -10,11 +10,16 @@ export default ({ close }) => (
           Home
         </NavLink>
       </li>
-      {/* <li>
+      <li>
         <NavLink onClick={close} activeClassName='current' to='/info'>
-          Prevenez-nous
+          Targets
         </NavLink>
-      </li> */}
+      </li>
+      <li>
+        <NavLink onClick={close} activeClassName='current' to='/info'>
+          Contact us
+        </NavLink>
+      </li>
     </ul>
   </div>
 );
