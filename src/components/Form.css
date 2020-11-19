@@ -54,7 +54,7 @@ textarea {
   outline: none;
   border: 1px solid #cfcfcf;
   width: 80%;
-  height: 100px;
+  height: 80px;
 }
 
 label {
@@ -71,7 +71,7 @@ select {
   border-radius: 5px;
   outline: none;
   border: 1px solid #cfcfcf;
-  width: 82%;
+  width: 85%;
 }
 
 @media screen and (min-width: 600px) {
@@ -85,6 +85,6 @@ select {
     width: 60%;
   }
   select {
-    width: 65%;
+    width: 63%;
   }
 }
