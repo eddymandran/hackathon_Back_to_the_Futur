@@ -5,17 +5,17 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Info from './components/Info';
 import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
+import Targets from './components/Targets';
 
 export default function App() {
   return (
     <div className='page'>
       <Router>
-      <NavBar className='navbar' />
+        <NavBar className='navbar' />
         <main>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/aboutus' component={AboutUs} />
+            <Route path='/Targets' component={Targets} />
             <Route path='/info' component={Info} />
           </Switch>
         </main>
