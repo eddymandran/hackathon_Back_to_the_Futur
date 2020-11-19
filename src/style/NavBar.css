@@ -1,14 +1,15 @@
+@import './Global.css';
 
 .logo {
-  width: 100px;
-  margin-top: 10px;
+  width: 55px;
+  margin-top: 7px;
   margin-left: 10px;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: var(--color-blue);
   height: 80px;
 }
 
@@ -21,7 +22,6 @@ header nav ul li {
   list-style-type: none;
   padding: 5px 20px;
   cursor: pointer;
-  font-size: 1.5em;
   text-align: center;
 }
 

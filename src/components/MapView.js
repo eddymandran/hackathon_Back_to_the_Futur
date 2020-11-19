@@ -2,7 +2,7 @@ import React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import * as castleData from '../data/castle.json';
-import './map.css';
+import '../style/map.css';
 
 const castleIcon = new Icon({
   iconUrl: '/iconechateau.svg',
@@ -11,7 +11,7 @@ const castleIcon = new Icon({
 
 export default function MapView() {
   return (
-    <div>
+    <div className="map-container">
       <MapContainer
         className='MapViewContainer'
         center={[45.746463, 4.827158]}
