@@ -45,7 +45,7 @@ export default function Timer() {
     <div className='execution'>
       <h1>Next execution </h1>
       <span className='timer'>
-        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        {timerComponents.length ? timerComponents : <span>Time to kill!</span>}
 
         <img src={guillotines} alt='guillotines' />
       </span>
