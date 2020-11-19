@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Sacramento-Regular';
+  src: url(../Police/Sacramento-Regular.ttf);
+}
+
+.execution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Sacramento-Regular';
+}
+
+.timer {
+  font-family: 'Sacramento-Regular';
+  font-size: 20px;
+}
+img {
+  width: 150px;
+}
