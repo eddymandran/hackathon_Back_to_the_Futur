@@ -5,6 +5,7 @@ const startState = {
   name: '',
   message: '',
   castleName: '',
+  dateCalendar: '',
   select: '',
   nameError: '',
   castleError: '',
@@ -72,6 +73,7 @@ class Form extends Component {
   };
 
   handleSubmit = (event) => {
+    alert('Good Luck');
     event.preventDefault();
     const isValid = this.validation();
     if (isValid) {
