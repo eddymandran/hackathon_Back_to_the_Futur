@@ -47,6 +47,15 @@ class Form extends Component {
     });
   };
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    const isValid = this.validation();
+    if (isValid) {
+      // clear form
+      this.setState(startState);
+    }
+  };
+
   validation = () => {
     let nameError = '';
     let castleError = '';
@@ -69,17 +78,8 @@ class Form extends Component {
       this.setState({ castleError, nameError, messageError, selectError });
       return false;
     }
-    return true;
-  };
-
-  handleSubmit = (event) => {
     alert('Good Luck');
-    event.preventDefault();
-    const isValid = this.validation();
-    if (isValid) {
-      // clear form
-      this.setState(startState);
-    }
+    return true;
   };
 
   render() {
