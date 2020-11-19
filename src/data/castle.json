@@ -16,7 +16,6 @@
         "FORTUNE": "💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG/1280px-Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG"
- 
       },
       "geometry": {
         "type": "Point",
@@ -34,13 +33,13 @@
         "FORTUNE": "💰💰💰💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "https://www.chateaurajat.fr/wp-content/uploads/2017/11/slide1b.jpg"
- 
       },
       "geometry": {
         "type": "Point",
         "coordinates": [45.638281, 5.035674]
       }
-    }, {
+    },
+    {
       "type": "Feature",
       "properties": {
         "CASTLE_ID": 962,
@@ -51,13 +50,13 @@
         "FORTUNE": "💰💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sept%C3%A8me-Chateau-sud.JPG"
- 
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [45.550756, 5.010590]
+        "coordinates": [45.550756, 5.01059]
       }
-    }, {
+    },
+    {
       "type": "Feature",
       "properties": {
         "CASTLE_ID": 963,
@@ -68,13 +67,13 @@
         "FORTUNE": "💰💰💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "https://www.chateauxdebourgognefranchecomte.com/wp-content/uploads/2018/02/Flecheres_01.jpg"
- 
       },
       "geometry": {
         "type": "Point",
         "coordinates": [46.031529, 4.758191]
       }
-    }, {
+    },
+    {
       "type": "Feature",
       "properties": {
         "CASTLE_ID": 964,
@@ -85,13 +84,13 @@
         "FORTUNE": "💰💰💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "https://i.pinimg.com/564x/ed/2d/fe/ed2dfee951fe95a43638977f76363c01.jpg"
- 
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.470062, -0.560000]
+        "coordinates": [47.469616, -0.560408]
       }
-    }, {
+    },
+    {
       "type": "Feature",
       "properties": {
         "CASTLE_ID": 965,
@@ -102,11 +101,10 @@
         "FORTUNE": "💰💰💰💰💰",
         "DESCRIPTIO": "no/non",
         "PICTURE": "http://www.noblesseetroyautes.com/wp-content/uploads/2020/08/53882723_10157009656723674_626660695131291648_n.jpg"
- 
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [45.744573, 4.852308]
+        "coordinates": [48.804596, 2.121257]
       }
     }
   ]
