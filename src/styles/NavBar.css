@@ -1,14 +1,14 @@
 
 .logo {
-  width: 100px;
-  margin-top: 10px;
+  width: 55px;
+  margin-top: 7px;
   margin-left: 10px;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: #012f6b;
   height: 80px;
 }
 
