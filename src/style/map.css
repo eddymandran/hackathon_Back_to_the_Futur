@@ -1,5 +1,15 @@
 @import './Global.css';
 
+h3 {
+  vertical-align: baseline;
+  padding-top: 9px;
+  font-size: 15px;
+}
+.titleSite span {
+  font-size: 28px;
+  color: red;
+}
+
 .map-container {
   display: flex;
   justify-content: center;

@@ -35,7 +35,7 @@ const AboutUs = () => {
   return (
     <div className='about-us' id='about-us'>
       <div className='about-us-carousel-container' id='AboutUs'>
-        <h1 className='about-us-title'> Leader of the Revolution </h1>
+        <h1 className='about-us-title'> The Revolutionaries </h1>
         <Carousel
           className='about-us-carousel'
           autoPlay

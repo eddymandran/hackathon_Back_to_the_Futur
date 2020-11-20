@@ -11,7 +11,7 @@ export default function Targets() {
           {wishes.map((wish, id) => (
             <div className='castleWishe' key={id}>
               <h1>{wish.properties.NAME}</h1>
-              {wish.properties.FORTUNE}
+              <span>Net Worth per Castle: {wish.properties.FORTUNE} 💰</span>
               <div>
                 <img src={wish.properties.PICTURE} alt={wish.properties.NAME} />
               </div>

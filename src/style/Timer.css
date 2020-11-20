@@ -6,11 +6,19 @@
   align-items: center;
   margin: 50px;
   width: 300px;
+  font-size: 50px;
 }
 
 .timer {
-  font-size: 20px;
+  font-size: 50px;
 }
 img {
-  width: 90px;
+  width: 250px;
+}
+
+span {
+  font-size: 15px;
+}
+h1 {
+  font-size: 21px;
 }

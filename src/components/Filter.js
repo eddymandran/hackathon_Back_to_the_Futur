@@ -5,11 +5,12 @@ import castles from '../data/castles.json';
 const Filter = () => {
   const [castles, setCastles] = useState([]);
   const [isFiltered, setIsFiltered] = useState(false);
-  
 
   return (
     <div className='filter'>
-      <h3>Richness of the castle</h3>
+      <span>
+        <h3>Net Worth per Castle</h3>
+      </span>
       <select>
         <option value='level1'>💰</option>
         <option value='level2'>💰💰</option>

@@ -1,6 +1,5 @@
 @import './Global.css';
 
-
 .banner {
   display: flex;
   justify-content: center;
@@ -13,5 +12,5 @@
 }
 h1 {
   margin-bottom: 30px;
-  color: var(--color-blue)
+  color: var(--color-blue);
 }

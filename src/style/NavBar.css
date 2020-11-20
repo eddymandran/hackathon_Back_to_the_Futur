@@ -18,7 +18,7 @@ header nav ul {
   align-items: center;
 }
 
-header nav ul li {
+nav ul li {
   list-style-type: none;
   padding: 5px 20px;
   cursor: pointer;
@@ -34,8 +34,11 @@ header nav ul li a {
   color: white;
   text-decoration: none;
 }
-
-
+.titleSite {
+  font-family: BerryRotunda;
+  font-size: 40px;
+  color: red;
+}
 
 /*Smartphone*/
 @media screen and (max-width: 480px) {

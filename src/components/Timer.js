@@ -48,7 +48,13 @@ export default function Timer() {
         <img src={guillotines} alt='guillotines' />
       </div>
       <div className='timer'>
-        {timerComponents.length ? timerComponents : <span>Time to kill!</span>}
+        <span>
+          {timerComponents.length ? (
+            timerComponents
+          ) : (
+            <span>Time to kill!</span>
+          )}
+        </span>
       </div>
     </div>
   );

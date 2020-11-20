@@ -10,12 +10,13 @@ export default function NavBar() {
       <Link to='/'>
         <img src={logo} alt='hat' className='logo' />
       </Link>
+      <Link to='/'>
+        <span className='titleSite'>Occire Elites</span>
+      </Link>
       <nav>
         <ul>
           <li></li>
-          <li>
-            <Link to='/'>Slay Elites</Link>
-          </li>
+
           <li>
             <Link to='/Targets'>Targets</Link>
           </li>
@@ -24,7 +25,6 @@ export default function NavBar() {
           </li>
         </ul>
       </nav>
-
       <BurgerMenu />
     </header>
   );

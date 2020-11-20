@@ -7,7 +7,7 @@ export default ({ close }) => (
     <ul>
       <li>
         <NavLink onClick={close} activeClassName='current' to='/'>
-          Slay Elites
+          Occire Elites
         </NavLink>
       </li>
       <li>
