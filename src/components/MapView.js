@@ -12,10 +12,10 @@ const castleIcon = new Icon({
 
 export default function MapView() {
   const { addWishes } = useContext(WishesContext);
-  const [filter, setFilter] = useState('all');
+  const [filtervariable, setFiltervariable] = useState('all');
 
   function handleChange(event) {
-    setFilter(event.target.value);
+    setFiltervariable(event.target.value);
   }
 
   return (
@@ -24,12 +24,12 @@ export default function MapView() {
         <h3>Richness of the castle</h3>
         <p>
           <select onChange={handleChange}>
-            <option value='all'>All</option>
-            <option value='💰'>💰</option>
-            <option value='💰💰'>💰💰</option>
-            <option value='💰💰💰'>💰💰💰</option>
-            <option value='💰💰💰💰'>💰💰💰💰</option>
-            <option value='💰💰💰💰💰'>💰💰💰💰💰</option>
+            <option value='all'>all</option>
+            <option value='1'>💰</option>
+            <option value='2'>💰💰</option>
+            <option value='3'>💰💰💰</option>
+            <option value='4'>💰💰💰💰</option>
+            <option value='5'>💰💰💰💰💰</option>
           </select>
         </p>
       </div>
@@ -45,9 +45,9 @@ export default function MapView() {
           />
 
           {castles
-            /* .filter((castle) => {
-              return castle.properties.FORTUNE === { filter };
-            }) */
+            .filter((castle) => {
+              return filtervariable === "all" || castle.properties.FORTUNE === filtervariable;
+            })
             .map((castle) => (
               <Marker
                 key={castle.properties.CASTLE_ID}
