@@ -1,4 +1,8 @@
-.filter{
-  display:flex;
-  justify-content:center;
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.selectRichness {
+  min-width: 125px;
 }

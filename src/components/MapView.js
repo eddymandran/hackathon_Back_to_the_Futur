@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import castles from '../data/castles.json';
 import '../style/map.css';
+import { WishesContext } from '../_context/WishesContextProvider';
 
 const castleIcon = new Icon({
   iconUrl: '/iconechateau.svg',
@@ -10,6 +11,7 @@ const castleIcon = new Icon({
 });
 
 export default function MapView() {
+  const { addWishes } = useContext(WishesContext);
   return (
     <div className='map-container'>
       <MapContainer
@@ -36,6 +38,15 @@ export default function MapView() {
               <p>{castle.properties.ADDRESS_FR}</p>
               <h3>{castle.properties.FORTUNE}</h3>
               <img src={castle.properties.PICTURE} alt='castle' />
+              <div>
+                <button
+                  variant='contained'
+                  color='primary'
+                  onClick={() => addWishes(castle)}
+                >
+                  Add to Wishes
+                </button>
+              </div>
             </Popup>
           </Marker>
         ))}

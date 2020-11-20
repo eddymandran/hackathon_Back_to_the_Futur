@@ -15,18 +15,22 @@ body {
   src: url(../Police/BerryRotunda.ttf);
 }
 
-h1 ul li{
+h1,
+ul,
+li {
   font-family: BerryRotunda;
   font-size: 16px;
 }
 
-p label {
+p,
+label {
   font-family: BerryRotunda;
   font-size: 14px;
 }
 
-select Button span{
+select,
+Button,
+span {
   font-family: BerryRotunda;
   font-size: 12px;
 }
-
