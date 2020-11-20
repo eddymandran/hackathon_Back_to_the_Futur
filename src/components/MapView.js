@@ -31,9 +31,11 @@ export default function MapView() {
             ]}
             icon={castleIcon}
           >
-            <Popup>
-              {castle.properties.NAME}
-              <p>{castle.properties.FORTUNE}</p>
+            <Popup className='popup'>
+              <h3>{castle.properties.NAME}</h3>
+              <p>{castle.properties.ADDRESS_FR}</p>
+              <h3>{castle.properties.FORTUNE}</h3>
+              <img src={castle.properties.PICTURE} alt='castle' />
             </Popup>
           </Marker>
         ))}
