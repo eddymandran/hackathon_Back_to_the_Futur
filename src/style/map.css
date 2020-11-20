@@ -1,5 +1,10 @@
 @import './Global.css';
 
+@font-face {
+  font-family: 'BerryRotunda';
+  src: url(../Police/BerryRotunda.ttf);
+}
+
 .map-container {
   display: flex;
   justify-content: center;
@@ -24,4 +29,11 @@
 
 .selectRichness {
   min-width: 125px;
+}
+
+h4{
+padding-top:"20px";
+font-family: BerryRotunda;
+font-size: 16px;
+color: var(--color-blue)
 }

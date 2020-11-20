@@ -21,7 +21,7 @@ export default function MapView() {
   return (
     <div>
       <div className='filter'>
-        <h3>Richness of the castle</h3>
+        <h4>Net worth per castle</h4>
         <p>
           <select onChange={handleChange}>
             <option value='all'>all</option>
@@ -60,7 +60,7 @@ export default function MapView() {
                 <Popup className='popup'>
                   <h3>{castle.properties.NAME}</h3>
                   <p>{castle.properties.ADDRESS_FR}</p>
-                  <h3>{castle.properties.FORTUNE}</h3>
+                  <h3>Net Worth per Castle: {castle.properties.FORTUNE} 💰</h3>
                   <img src={castle.properties.PICTURE} alt='castle' />
                   <div>
                     <button
