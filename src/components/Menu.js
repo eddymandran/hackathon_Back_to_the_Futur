@@ -11,7 +11,7 @@ export default ({ close }) => (
         </NavLink>
       </li>
       <li>
-        <NavLink onClick={close} activeClassName='current' to='/info'>
+        <NavLink onClick={close} activeClassName='current' to='/targets'>
           Targets
         </NavLink>
       </li>

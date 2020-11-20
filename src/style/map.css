@@ -1,12 +1,27 @@
 @import './Global.css';
 
-.map-container{
-  display:flex;
+.map-container {
+  display: flex;
   justify-content: center;
 }
 .MapViewContainer {
   width: 400px;
   height: 400px;
 }
+.popup {
+  text-align: center;
+}
+.popup p {
+  color: #012f6b;
+}
+.leaflet-popup-content-wrapper {
+  text-align: center;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
 
-
+.selectRichness {
+  min-width: 125px;
+}

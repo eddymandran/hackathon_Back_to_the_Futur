@@ -101,4 +101,90 @@
       "coordinates": [48.804596, 2.121257]
     }
   }
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Castelnaud-la-Chapelle",
+      "ADDRESS_FR": "Communauté de communes de Domme-Villefranche du Périgordnaud-la-Chapelle",
+      "CP": "24250 ",
+      "CITY": "Castelnaud-la-Chapelle",
+      "FORTUNE": "💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://www.camping-le-ceou.com/wp-content/uploads/2019/11/Chateau-Castelnaud-Ceou-350x260.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [44.816160, 1.148450]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Chambord",
+      "ADDRESS_FR": "Château,  Chambord",
+      "CP": "41250",
+      "CITY": "Chambord",
+      "FORTUNE": "💰💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "http://notrebellefrance.com/wp-content/uploads/2017/02/Le-ch%C3%A2teau-de-Chambord.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.616267, 1.517958]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Chenonceau",
+      "ADDRESS_FR": "37150 Chenonceaux",
+      "CP": "37150",
+      "CITY": "Chenonceaux",
+      "FORTUNE": "💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://images.lanouvellerepublique.fr/image/upload/t_1020w/f_auto/5cfa7c244a619912598b45fa.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": []
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de La Motte",
+      "ADDRESS_FR": "11 Rue de l'Épargne",
+      "CP": "69007",
+      "CITY": "Lyon",
+      "FORTUNE": "💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG/1280px-Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [45.744573, 4.852308]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de La Motte",
+      "ADDRESS_FR": "11 Rue de l'Épargne",
+      "CP": "69007",
+      "CITY": "Lyon",
+      "FORTUNE": "💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG/1280px-Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [45.744573, 4.852308]
+    }
+  },
+
 ]

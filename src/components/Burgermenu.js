@@ -10,7 +10,7 @@ const styles = {
   marginTop: '40px',
 };
 const contentStyle = {
-  background: '#0d0c0c',
+  background: '#012f6b',
   width: '100%',
   border: 'none',
 };
@@ -19,7 +19,7 @@ const BurgerMenu = () => (
   <div style={styles}>
     <Popup
       modal
-      overlayStyle={{ background: '#0d0c0c', top: '79px' }}
+      overlayStyle={{ background: '#012f6b', top: '79px', zIndex: '1000' }}
       contentStyle={contentStyle}
       closeOnDocumentClick={false}
       trigger={(open) => <BurgerIcon open={open} />}
