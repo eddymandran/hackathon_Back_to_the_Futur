@@ -45,9 +45,9 @@ export default function MapView() {
           />
 
           {castles
-            .filter((castle) => {
+            /* .filter((castle) => {
               return castle.properties.FORTUNE === { filter };
-            })
+            }) */
             .map((castle) => (
               <Marker
                 key={castle.properties.CASTLE_ID}
