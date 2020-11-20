@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import '../style/Filter.css';
 import castles from '../data/castles.json';
 
 const Filter = () => {
-  const [castle, setCastle] = useState([]);
+  const [castles, setCastles] = useState([]);
   const [isFiltered, setIsFiltered] = useState(false);
+  
 
   return (
     <div className='filter'>

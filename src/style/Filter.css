@@ -1,4 +1,20 @@
-.filter{
-  display:flex;
-  justify-content:center;
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-family: BerryRotunda;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-blue);
+  padding: 20px;
+}
+
+select {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
 }
