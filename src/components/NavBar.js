@@ -14,7 +14,7 @@ export default function NavBar() {
         <ul>
           <li></li>
           <li>
-            <Link to='/'>Occire Elites</Link>
+            <Link to='/'>Slay Elites</Link>
           </li>
           <li>
             <Link to='/Targets'>Targets</Link>

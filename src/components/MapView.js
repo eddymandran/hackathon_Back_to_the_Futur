@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Icon } from 'leaflet';
-import * as castleData from '../data/castle.json';
+import castles from '../data/castles.json';
 import '../style/map.css';
 
 const castleIcon = new Icon({
@@ -22,7 +22,7 @@ export default function MapView() {
           url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
         />
 
-        {castleData.features.map((castle) => (
+        {castles.map((castle) => (
           <Marker
             key={castle.properties.CASTLE_ID}
             position={[
