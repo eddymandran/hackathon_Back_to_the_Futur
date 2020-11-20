@@ -1,6 +1,7 @@
 @import './Global.css';
 
 footer {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
