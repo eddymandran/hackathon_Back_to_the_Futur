@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from './AboutUs';
 import Form from './Form';
+import '../style/Info.css';
 
 function Info() {
   return (

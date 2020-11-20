@@ -1,19 +1,25 @@
 .targetContainer {
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .targetCard {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: center;
-
   margin: 20px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
 .castleWishe {
+  margin: 10px;
   background-color: red;
+  border-radius: 25px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
 }
 
 .button_clear {
@@ -21,5 +27,29 @@
   margin: 10px;
 }
 .targetContainer img {
-  width: 20vw;
+  width: 250px;
+  height: 150px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.targetContainer h1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .castleWishe {
+    margin: 10px;
+    background-color: red;
+    border-radius: 25px;
+    height: 300px;
+  }
+  .targetCard {
+    margin: 20px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
 }
