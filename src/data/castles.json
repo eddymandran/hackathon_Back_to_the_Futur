@@ -100,14 +100,14 @@
       "type": "Point",
       "coordinates": [48.804596, 2.121257]
     }
-  }
+  },
   {
     "type": "Feature",
     "properties": {
       "CASTLE_ID": 960,
       "NAME": "Château de Castelnaud-la-Chapelle",
       "ADDRESS_FR": "Communauté de communes de Domme-Villefranche du Périgordnaud-la-Chapelle",
-      "CP": "24250 ",
+      "CP": "24250",
       "CITY": "Castelnaud-la-Chapelle",
       "FORTUNE": "💰",
       "DESCRIPTIO": "no/non",
@@ -149,23 +149,6 @@
     },
     "geometry": {
       "type": "Point",
-      "coordinates": []
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "CASTLE_ID": 960,
-      "NAME": "Château de La Motte",
-      "ADDRESS_FR": "11 Rue de l'Épargne",
-      "CP": "69007",
-      "CITY": "Lyon",
-      "FORTUNE": "💰",
-      "DESCRIPTIO": "no/non",
-      "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG/1280px-Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG"
-    },
-    "geometry": {
-      "type": "Point",
       "coordinates": [45.744573, 4.852308]
     }
   },
@@ -173,18 +156,119 @@
     "type": "Feature",
     "properties": {
       "CASTLE_ID": 960,
-      "NAME": "Château de La Motte",
-      "ADDRESS_FR": "11 Rue de l'Épargne",
-      "CP": "69007",
-      "CITY": "Lyon",
-      "FORTUNE": "💰",
+      "NAME": "Château de Villandry",
+      "ADDRESS_FR": "3 Rue Principale",
+      "CP": "37510",
+      "CITY": "Villandry",
+      "FORTUNE": "💰💰",
       "DESCRIPTIO": "no/non",
-      "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG/1280px-Ch%C3%A2teau_de_La_Motte_%28Lyon%29_1.JPG"
+      "PICTURE": "https://www.lesplusbeauxjardinsdefrance.com/wp-content/uploads/2016/12/chateau-jardin-villandry-1170x550.jpg"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [45.744573, 4.852308]
+      "coordinates": [47.340097, 0.514691]
     }
   },
-
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Vaux le Vicomte",
+      "ADDRESS_FR": "77950 Maincy",
+      "CP": "77950",
+      "CITY": "Maincy",
+      "FORTUNE": "💰💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://vaux-le-vicomte.com/wp-content/uploads/2014/08/Transparence-600x398.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [48.565650, 2.714164]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Fontainebleau",
+      "ADDRESS_FR": "",
+      "CP": "77300",
+      "CITY": "Fontainebleau",
+      "FORTUNE": "💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fontainebleau_Castle_%282735351636%29.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [48.402752, 2.698002]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château du Haut-Kœnigsbourg",
+      "ADDRESS_FR": "67600 Orschwiller",
+      "CP": "67600",
+      "CITY": "Orschwiller",
+      "FORTUNE": "💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://notrebellefrance.com/wp-content/uploads/2017/02/Haut-Koenigsbourg.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [48.249596, 7.345073]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Peyrepertuse",
+      "ADDRESS_FR": "11350 Duilhac-sous-Peyrepertuse",
+      "CP": "11350",
+      "CITY": "Duilhac-sous-Peyrepertuse",
+      "FORTUNE": "💰💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://contre-regard.com/wp-content/uploads/2017/04/chateau-peyrepertuse-narbonne-vue-aerienne.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [42.871046, 2.555783]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château d'Ussé",
+      "ADDRESS_FR": "37420 Rigny-Ussé",
+      "CP": "37420 ",
+      "CITY": "Rigny-Ussé",
+      "FORTUNE": "💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://voyages.michelin.fr/sites/default/files/styles/poi_slideshow/public/images/travel_guide/NX-41364.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.250162, 0.291622]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "CASTLE_ID": 960,
+      "NAME": "Château de Valençay",
+      "ADDRESS_FR": "2 Rue de Blois, ",
+      "CP": "36600 ",
+      "CITY": "Valençay",
+      "FORTUNE": "💰💰💰",
+      "DESCRIPTIO": "no/non",
+      "PICTURE": "https://www.chateau-valencay.fr/wp-content/uploads/2019/02/VALENCAY_2019_GENERIQUE_01_COULEUR02-1.jpg"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [47.157025, 1.559559]
+    }
+  }
 ]
