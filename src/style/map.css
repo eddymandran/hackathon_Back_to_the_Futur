@@ -22,6 +22,9 @@
 .leaflet-popup-content-wrapper {
   text-align: center;
 }
+.leaflet-popup-content {
+  width : 180px;
+}
 .filter {
   display: flex;
   justify-content: center;
@@ -36,4 +39,7 @@ padding-top:"20px";
 font-family: BerryRotunda;
 font-size: 16px;
 color: var(--color-blue)
+}
+.imgPopup {
+  width: 130px;
 }

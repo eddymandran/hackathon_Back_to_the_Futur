@@ -34,6 +34,18 @@ header nav ul li a {
   color: white;
   text-decoration: none;
 }
+#OccireElites {
+  list-style: none;
+  font-size: 35px;
+};
+a {
+  font-size: 30px;;
+}
+.ulNav {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /*Smartphone*/

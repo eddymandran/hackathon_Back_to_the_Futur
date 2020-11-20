@@ -10,12 +10,11 @@ export default function NavBar() {
       <Link to='/'>
         <img src={logo} alt='hat' className='logo' />
       </Link>
+      <li id='OccireElites'>
+        <Link to='/'>Occire Elites</Link>
+      </li>
       <nav>
-        <ul>
-          <li></li>
-          <li className="OccireElites">
-            <Link to='/'>Occire Elites</Link>
-          </li>
+        <ul className='ulNav'>
           <li>
             <Link to='/Targets'>Targets</Link>
           </li>

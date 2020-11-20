@@ -46,7 +46,10 @@ export default function MapView() {
 
           {castles
             .filter((castle) => {
-              return filtervariable === "all" || castle.properties.FORTUNE === filtervariable;
+              return (
+                filtervariable === 'all' ||
+                castle.properties.FORTUNE === filtervariable
+              );
             })
             .map((castle) => (
               <Marker
@@ -61,7 +64,11 @@ export default function MapView() {
                   <h3>{castle.properties.NAME}</h3>
                   <p>{castle.properties.ADDRESS_FR}</p>
                   <h3>Net Worth per Castle: {castle.properties.FORTUNE} 💰</h3>
-                  <img src={castle.properties.PICTURE} alt='castle' />
+                  <img
+                    className='imgPopup'
+                    src={castle.properties.PICTURE}
+                    alt='castle'
+                  />
                   <div>
                     <button
                       variant='contained'
