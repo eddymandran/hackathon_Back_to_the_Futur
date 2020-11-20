@@ -1,0 +1,25 @@
+.targetContainer {
+  height: 100%;
+}
+
+.targetCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 20px;
+}
+.castleWishe {
+  background-color: red;
+}
+
+.button_clear {
+  text-align: center;
+  margin: 10px;
+}
+.targetContainer img {
+  width: 20vw;
+}
