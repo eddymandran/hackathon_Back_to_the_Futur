@@ -123,7 +123,7 @@
     "properties": {
       "CASTLE_ID": 967,
       "NAME": "Château de Chambord",
-      "ADDRESS_FR": "Château,  Chambord",
+      "ADDRESS_FR": "",
       "CP": "41250",
       "CITY": "Chambord",
       "FORTUNE": "4",
@@ -140,7 +140,7 @@
     "properties": {
       "CASTLE_ID": 968,
       "NAME": "Château de Chenonceau",
-      "ADDRESS_FR": "37150 Chenonceaux",
+      "ADDRESS_FR": "",
       "CP": "37150",
       "CITY": "Chenonceaux",
       "FORTUNE": "3",
@@ -174,7 +174,7 @@
     "properties": {
       "CASTLE_ID": 970,
       "NAME": "Château de Vaux le Vicomte",
-      "ADDRESS_FR": "77950 Maincy",
+      "ADDRESS_FR": "",
       "CP": "77950",
       "CITY": "Maincy",
       "FORTUNE": "4",
@@ -208,7 +208,7 @@
     "properties": {
       "CASTLE_ID": 972,
       "NAME": "Château du Haut-Kœnigsbourg",
-      "ADDRESS_FR": "67600 Orschwiller",
+      "ADDRESS_FR": "",
       "CP": "67600",
       "CITY": "Orschwiller",
       "FORTUNE": "2",
@@ -225,7 +225,7 @@
     "properties": {
       "CASTLE_ID": 973,
       "NAME": "Château de Peyrepertuse",
-      "ADDRESS_FR": "11350 Duilhac-sous-Peyrepertuse",
+      "ADDRESS_FR": "",
       "CP": "11350",
       "CITY": "Duilhac-sous-Peyrepertuse",
       "FORTUNE": "4",
@@ -242,7 +242,7 @@
     "properties": {
       "CASTLE_ID": 974,
       "NAME": "Château d'Ussé",
-      "ADDRESS_FR": "37420 Rigny-Ussé",
+      "ADDRESS_FR": "",
       "CP": "37420 ",
       "CITY": "Rigny-Ussé",
       "FORTUNE": "1",

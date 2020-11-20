@@ -28,6 +28,7 @@ p, label {
 select, Button, span, h3{
   font-family: BerryRotunda;
   font-size: 12px;
+  color: var(--color-blue)
 }
 
 

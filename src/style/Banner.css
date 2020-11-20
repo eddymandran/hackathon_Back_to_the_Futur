@@ -4,6 +4,7 @@
 .banner {
   display: flex;
   justify-content: center;
+  margin: 50px auto;
 }
 
 .text {
@@ -13,5 +14,6 @@
 }
 h1 {
   margin-bottom: 30px;
-  color: var(--color-blue)
+  color: var(--color-red);
+  font-size: 25px;
 }

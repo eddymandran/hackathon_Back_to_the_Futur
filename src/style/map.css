@@ -1,5 +1,10 @@
 @import './Global.css';
 
+@font-face {
+  font-family: 'BerryRotunda';
+  src: url(../Police/BerryRotunda.ttf);
+}
+
 .map-container {
   display: flex;
   justify-content: center;
@@ -17,6 +22,9 @@
 .leaflet-popup-content-wrapper {
   text-align: center;
 }
+.leaflet-popup-content {
+  width : 180px;
+}
 .filter {
   display: flex;
   justify-content: center;
@@ -24,4 +32,14 @@
 
 .selectRichness {
   min-width: 125px;
+}
+
+h4{
+padding-top:"20px";
+font-family: BerryRotunda;
+font-size: 16px;
+color: var(--color-blue)
+}
+.imgPopup {
+  width: 130px;
 }
