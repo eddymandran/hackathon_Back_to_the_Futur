@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom:50px;
+  margin: 50px;
+  width: 300px;
 }
 
 .timer {

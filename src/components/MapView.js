@@ -23,7 +23,7 @@ export default function MapView() {
       <div className='filter'>
         <h3>Richness of the castle</h3>
         <p>
-          <select className='selectRichness' onChange={handleChange}>
+          <select onChange={handleChange}>
             <option value='all'>All</option>
             <option value='💰'>💰</option>
             <option value='💰💰'>💰💰</option>
